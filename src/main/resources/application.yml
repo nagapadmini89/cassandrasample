@@ -1,0 +1,9 @@
+server:
+  port: 3001
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: test
+      port: 9042
+      contact-points: localhost
